@@ -1,0 +1,22 @@
+name: flows
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=>3
+  - tqdm
+  - colorama
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pytorch::pytorch=>1.6
+  - pytorch::torchvision
+  - conda-forge::hydra-core=>1.0
+  - conda-forge::jupyterlab
+  - tensorboard
+  - yapf
+  - isort
+  - mypy
+  - flake8

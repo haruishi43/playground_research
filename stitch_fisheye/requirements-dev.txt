@@ -1,0 +1,4 @@
+black
+hacking
+pre-commit
+pytest
